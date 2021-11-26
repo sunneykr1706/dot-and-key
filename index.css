@@ -157,3 +157,18 @@ bottom: 9%;
 
 background: #FFFFFF;
 }
+
+
+ progress::-moz-progress-bar {
+  background: pink;
+}
+
+/* For Chrome or Safari */
+progress::-webkit-progress-value {
+  background: pink;
+}
+
+/* For IE10 */
+progress {
+  background: pink;
+}
